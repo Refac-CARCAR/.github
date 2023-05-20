@@ -1,14 +1,21 @@
 🐌
 
-## Hi there 👋
+##
 
-<!--
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
+
+## VM 주소
+`34.64.228.162:5000`
+
+### VM 작동방법
+
+#### (백엔드 실행-띄어쓰기 중요) yarn start 대신 pm2로 실행
+pm2 --name express start npm -- run start
+
+#### (참고) pm2로 실행 중인 프로세스 보기
+pm2 list
+
+#### (참고) pm2로 실행 중인 프로세스 종료
+pm2 delete <번호>
